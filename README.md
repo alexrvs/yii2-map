@@ -27,10 +27,21 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
+use namespace 
+
+```php 
+
+<?php 
+use alevas\Map;		
+
+?>
+
+how to use widget: 
+
 ```php
 
 <?= 
-use alevas\Map::widget();	
+
 Map::widget([
     'zoom' => 16,
     'center' => 'Red Square',
@@ -38,4 +49,4 @@ Map::widget([
     'height' => 400,
     'mapType' => Map::MAP_TYPE_SATELLITE,
 ]);
-?>  ```
+?> 
