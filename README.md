@@ -28,4 +28,14 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \alevas\AutoloadExample::widget(); ?>```
+
+<?= 
+use alevas\Map::widget();	
+Map::widget([
+    'zoom' => 16,
+    'center' => 'Red Square',
+    'width' => 700,
+    'height' => 400,
+    'mapType' => Map::MAP_TYPE_SATELLITE,
+]);
+?>  ```
