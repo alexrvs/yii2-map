@@ -34,11 +34,11 @@ class Map extends Widget
 
 			$this->apiKey = Yii::$app->params['GOOGLE_API_KEY'];
 
-		}else{
+		}
 
 			$this->sensor = $this->sensor ? 'true' : 'false';
 			parent::init();
-		}
+		
 
 	}
 
