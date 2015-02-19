@@ -17,7 +17,7 @@ class Map extends Widget
 	const MAP_TYPE_SATELLITE = 'SATELLITE';
 	const MAP_TYPE_TERRAIN = 'TERRAIN';
 
-	public $sensors = false;
+	public $sensor = false;
 	public $width = '620';
 	public $height = '340';
 	public $center = 'г.Запорожье, ул.Патреотическая д.18';
@@ -36,7 +36,7 @@ class Map extends Widget
 
 		}else{
 
-			$this->sensors = $this->sensors ? 'true' : 'false';
+			$this->sensor = $this->sensor ? 'true' : 'false';
 			parent::init();
 		}
 
