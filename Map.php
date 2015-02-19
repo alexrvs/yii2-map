@@ -32,7 +32,7 @@ class Map extends Widget
 	{
 		if($this->apiKey == null){
 
-			$this->apiKey = Yii::$app()->params['GOOGLE_API_KEY'];
+			$this->apiKey = Yii::$app->params['GOOGLE_API_KEY'];
 
 		}else{
 
