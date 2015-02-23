@@ -1,5 +1,5 @@
 {
-    "name": "alevas/yii2-map",
+    "name": "alexandervas/yii2-map",
     "description": "Google Map in your web app",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","map"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "alevas\\": ""
+            "alexandervas\\": ""
         }
     }
 }
