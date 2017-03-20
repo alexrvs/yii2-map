@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist alevas/yii2-map "*"
+php composer.phar require --prefer-dist alexrvs/yii2-map "*"
 ```
 
 or add
 
 ```
-"alevas/yii2-map": "*"
+"alexrvs/yii2-map": "*"
 ```
 
 to the require section of your `composer.json` file.
