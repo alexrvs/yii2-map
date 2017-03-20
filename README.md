@@ -32,7 +32,7 @@ use namespace
 ```php 
 
 <?php 
-use alevas\Map;		
+use alexrvs\Map;		
 
 ?>
 
